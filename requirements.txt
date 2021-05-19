@@ -1,3 +1,15 @@
+# Computation modules
+numpy
+scikit-learn
+tensorflow
+pandas
+
+# Visualization modules
+jupyterlab>=3.0
+matplotlib
+plotly
+dash
+
 # local package
 -e .
 

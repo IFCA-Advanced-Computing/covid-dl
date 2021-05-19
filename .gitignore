@@ -87,3 +87,8 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+################## Files specific to this project
+reports/summary.md
+models/
+notebooks/Untitled*

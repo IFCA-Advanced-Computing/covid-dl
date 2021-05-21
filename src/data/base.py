@@ -50,11 +50,11 @@ def get_data(trend=False,
         new = np.where(col.str.contains('Unnamed'), '', col)
         df = df.rename(columns=dict(zip(col, new)), level=i)
 
-    # Load density/population data
-    prov_path = PATHS.rawdir / 'prov_data.xls'
-    prov_data = pd.read_excel(prov_path, dtype={'Provincia': 'string'})
-    den_map = dict(zip(prov_data.Provincia, prov_data.Densidad))
-    pop_map = dict(zip(prov_data.Provincia, prov_data.Poblacion))
+    # # Load density/population data
+    # prov_path = PATHS.rawdir / 'prov_data.xls'
+    # prov_data = pd.read_excel(prov_path, dtype={'Provincia': 'string'})
+    # den_map = dict(zip(prov_data.Provincia, prov_data.Densidad))
+    # pop_map = dict(zip(prov_data.Provincia, prov_data.Poblacion))
 
     # Process provinces
     new_df = []

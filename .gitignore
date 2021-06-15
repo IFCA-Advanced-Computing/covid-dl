@@ -90,5 +90,5 @@ target/
 
 ################## Files specific to this project
 reports/summary.md
-models/
+models/*
 notebooks/Untitled*
